@@ -4,6 +4,7 @@ class AddGradeAndBirthdateToStudents
       add_column do | t |
         t.integer :grade
         t.string :birthdate
+      end
   end
   
   
