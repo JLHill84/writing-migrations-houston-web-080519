@@ -1,4 +1,4 @@
-class AddGradeAndBirthdateToStudents
+class AddGradeAndBirthdateToStudents < ActiveRecord
   
   def change
       add_column do | t |
